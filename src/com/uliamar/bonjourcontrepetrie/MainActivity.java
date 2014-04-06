@@ -26,6 +26,8 @@ import android.widget.Toast;
 import uk.co.senab.actionbarpulltorefresh.library.ActionBarPullToRefresh;
 import uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout;
 import uk.co.senab.actionbarpulltorefresh.library.listeners.OnRefreshListener;
+import uk.co.senab.photoview.PhotoViewAttacher;
+
 
 public class MainActivity extends Activity {
     GridView gridview;
@@ -37,6 +39,7 @@ public class MainActivity extends Activity {
     final String IMAGE_DISPLAYED_FULLSCREEN_KEY_REFRESH = "imageToDisplayFullSize";
     private PullToRefreshLayout mPullToRefreshLayout;
     String imageDisplayedFullSize = "";
+    PhotoViewAttacher mAttacher;
 
 
     public final static String BASE_URL = "http://uliamar.com/h/contre/";
@@ -45,15 +48,27 @@ public class MainActivity extends Activity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
+
+
         gridview = (GridView) findViewById(R.id.gridview);
         gridview.setEmptyView(findViewById(R.id.emptyList));
-        image = (ImageView) findViewById(R.id.image);
-
-        imageContainer = (FrameLayout) findViewById(R.id.pictureContainer);
-        // Contre.deleteAll(Contre.class);
         adaptateur = new ImageAdapter(this, new ArrayList<Contre>());
         gridview.setAdapter(adaptateur);
         gridview.setOnItemClickListener(myClickListener);
+
+        imageContainer = (FrameLayout) findViewById(R.id.pictureContainer);
+        image = (ImageView) findViewById(R.id.image);
+        image.setImageResource(R.drawable.l);
+        mAttacher = new PhotoViewAttacher(image);
+        mAttacher.setOnPhotoTapListener(new PhotoViewAttacher.OnPhotoTapListener() {
+            @Override
+            public void onPhotoTap(View view, float x, float y) {
+                hidePicure(null);
+            }
+        });
+
+
+
         setDataFromDB();
 
 
@@ -137,6 +152,7 @@ public class MainActivity extends Activity {
         String url = imageDisplayedFullSize;
         Log.v("Picasso", "on load l'image: " + url);
         Picasso.with(MainActivity.this).load(url).into(image);
+        mAttacher.update();
         imageContainer.setVisibility(FrameLayout.VISIBLE);
     }
 

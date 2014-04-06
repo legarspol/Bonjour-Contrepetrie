@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
-    <dataSet config="ComGithubCastorflexSmoothprogressbarLibrary020.aar" >
-        <source path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubCastorflexSmoothprogressbarLibrary020.aar/res" >
+    <dataSet config="0.2.0" >
+        <source path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.castorflex.smoothprogressbar/library/0.2.0/res" >
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubCastorflexSmoothprogressbarLibrary020.aar/res/values/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.castorflex.smoothprogressbar/library/0.2.0/res/values/values.xml"
                 qualifiers="" >
                 <dimen name="spb_default_stroke_separator_length" >4dp
                 </dimen>
@@ -119,7 +119,7 @@ false
                 </declare-styleable>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubCastorflexSmoothprogressbarLibrary020.aar/res/values-v14/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.castorflex.smoothprogressbar/library/0.2.0/res/values-v14/values.xml"
                 qualifiers="v14" >
 
                 <style
@@ -150,15 +150,15 @@ false
             </file>
         </source>
     </dataSet>
-    <dataSet config="ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar" >
-        <source path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res" >
+    <dataSet config="0.9.3" >
+        <source path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res" >
             <file
                 name="default_header"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/layout/default_header.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/layout/default_header.xml"
                 qualifiers=""
                 type="layout" />
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values/values.xml"
                 qualifiers="" >
                 <item
                     name="ptr_text"
@@ -261,7 +261,7 @@ false
                     format="reference" />
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-ar/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-ar/values.xml"
                 qualifiers="ar" >
                 <string name="pull_to_refresh_release_label" >اترك للتحديث…
                 </string>
@@ -271,7 +271,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-cs/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-cs/values.xml"
                 qualifiers="cs" >
                 <string name="pull_to_refresh_refreshing_label" >Načítání…
                 </string>
@@ -281,7 +281,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-de/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-de/values.xml"
                 qualifiers="de" >
                 <string name="pull_to_refresh_pull_label" >Ziehen zum Aktualisieren…
                 </string>
@@ -291,7 +291,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-es/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-es/values.xml"
                 qualifiers="es" >
                 <string name="pull_to_refresh_pull_label" >Desliza el dedo hacia abajo para actualizar.
                 </string>
@@ -301,7 +301,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-fi/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-fi/values.xml"
                 qualifiers="fi" >
                 <string name="pull_to_refresh_refreshing_label" >Päivitetään…
                 </string>
@@ -311,7 +311,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-fr/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-fr/values.xml"
                 qualifiers="fr" >
                 <string name="pull_to_refresh_pull_label" >Tirez pour rafraîchir…
                 </string>
@@ -321,7 +321,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-he/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-he/values.xml"
                 qualifiers="he" >
                 <string name="pull_to_refresh_release_label" >שחרר לרענון…
                 </string>
@@ -331,7 +331,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-it/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-it/values.xml"
                 qualifiers="it" >
                 <string name="pull_to_refresh_refreshing_label" >Caricamento…
                 </string>
@@ -341,7 +341,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-iw/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-iw/values.xml"
                 qualifiers="iw" >
                 <string name="pull_to_refresh_pull_label" >משוך לרענון…
                 </string>
@@ -351,7 +351,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-ja/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-ja/values.xml"
                 qualifiers="ja" >
                 <string name="pull_to_refresh_pull_label" >画面を引っ張って…
                 </string>
@@ -361,7 +361,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-ko/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-ko/values.xml"
                 qualifiers="ko" >
                 <string name="pull_to_refresh_refreshing_label" >로드 중…
                 </string>
@@ -371,7 +371,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-lt/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-lt/values.xml"
                 qualifiers="lt" >
                 <string name="pull_to_refresh_release_label" >Paleiskite, kad atnaujinti…
                 </string>
@@ -381,7 +381,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-nl/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-nl/values.xml"
                 qualifiers="nl" >
                 <string name="pull_to_refresh_release_label" >Loslaten om te vernieuwen…
                 </string>
@@ -391,7 +391,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-pl/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-pl/values.xml"
                 qualifiers="pl" >
                 <string name="pull_to_refresh_refreshing_label" >Wczytywanie…
                 </string>
@@ -401,7 +401,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-pt/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-pt/values.xml"
                 qualifiers="pt" >
                 <string name="pull_to_refresh_refreshing_label" >A carregar…
                 </string>
@@ -411,7 +411,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-pt-rBR/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-pt-rBR/values.xml"
                 qualifiers="pt-rBR" >
                 <string name="pull_to_refresh_release_label" >Libere para atualizar…
                 </string>
@@ -421,7 +421,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-ro/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-ro/values.xml"
                 qualifiers="ro" >
                 <string name="pull_to_refresh_refreshing_label" >Încărcare…
                 </string>
@@ -431,7 +431,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-ru/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-ru/values.xml"
                 qualifiers="ru" >
                 <string name="pull_to_refresh_release_label" >отпустите
                 </string>
@@ -441,7 +441,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-sk/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-sk/values.xml"
                 qualifiers="sk" >
                 <string name="pull_to_refresh_refreshing_label" >Načítavanie...
                 </string>
@@ -451,7 +451,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-sv/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-sv/values.xml"
                 qualifiers="sv" >
                 <string name="pull_to_refresh_release_label" >Släpp om du vill uppdatera
                 </string>
@@ -461,7 +461,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/build/exploded-bundles/ComGithubChrisbanesActionbarpulltorefreshLibrary093.aar/res/values-zh/values.xml"
+                path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/res/values-zh/values.xml"
                 qualifiers="zh" >
                 <string name="pull_to_refresh_release_label" >放开以刷新…
                 </string>
@@ -473,54 +473,54 @@ false
         </source>
     </dataSet>
     <dataSet config="main" >
-        <source path="/Users/Pol/Development/Android/BonjourContrepetrie/res" >
+        <source path="/Development/Android/BonjourContrepetrie3/res" >
             <file
                 name="ic_bug"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/drawable/ic_bug.png"
+                path="/Development/Android/BonjourContrepetrie3/res/drawable/ic_bug.png"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="l"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/drawable/l.jpg"
+                path="/Development/Android/BonjourContrepetrie3/res/drawable/l.jpg"
                 qualifiers=""
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/drawable-hdpi/ic_launcher.png"
+                path="/Development/Android/BonjourContrepetrie3/res/drawable-hdpi/ic_launcher.png"
                 qualifiers="hdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/drawable-mdpi/ic_launcher.png"
+                path="/Development/Android/BonjourContrepetrie3/res/drawable-mdpi/ic_launcher.png"
                 qualifiers="mdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/drawable-xhdpi/ic_launcher.png"
+                path="/Development/Android/BonjourContrepetrie3/res/drawable-xhdpi/ic_launcher.png"
                 qualifiers="xhdpi"
                 type="drawable" />
             <file
                 name="ic_launcher"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/drawable-xxhdpi/ic_launcher.png"
+                path="/Development/Android/BonjourContrepetrie3/res/drawable-xxhdpi/ic_launcher.png"
                 qualifiers="xxhdpi"
                 type="drawable" />
             <file
                 name="activity_main"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/layout/activity_main.xml"
+                path="/Development/Android/BonjourContrepetrie3/res/layout/activity_main.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="grid_empty"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/layout/grid_empty.xml"
+                path="/Development/Android/BonjourContrepetrie3/res/layout/grid_empty.xml"
                 qualifiers=""
                 type="layout" />
             <file
                 name="main"
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/menu/main.xml"
+                path="/Development/Android/BonjourContrepetrie3/res/menu/main.xml"
                 qualifiers=""
                 type="menu" />
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/values/dimens.xml"
+                path="/Development/Android/BonjourContrepetrie3/res/values/dimens.xml"
                 qualifiers="" >
                 <dimen name="activity_horizontal_margin" >16dp
                 </dimen>
@@ -528,7 +528,7 @@ false
                 </dimen>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/values/strings.xml"
+                path="/Development/Android/BonjourContrepetrie3/res/values/strings.xml"
                 qualifiers="" >
                 <string name="action_settings" >Settings
                 </string>
@@ -538,7 +538,7 @@ false
                 </string>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/values/styles.xml"
+                path="/Development/Android/BonjourContrepetrie3/res/values/styles.xml"
                 qualifiers="" >
 
                 <style
@@ -560,13 +560,13 @@ false
                 </style>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/values-sw720dp-land/dimens.xml"
+                path="/Development/Android/BonjourContrepetrie3/res/values-sw720dp-land/dimens.xml"
                 qualifiers="sw720dp-land" >
                 <dimen name="activity_horizontal_margin" >128dp
                 </dimen>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/values-v11/styles.xml"
+                path="/Development/Android/BonjourContrepetrie3/res/values-v11/styles.xml"
                 qualifiers="v11" >
 
                 <style
@@ -577,7 +577,7 @@ false
                 </style>
             </file>
             <file
-                path="/Users/Pol/Development/Android/BonjourContrepetrie/res/values-v14/styles.xml"
+                path="/Development/Android/BonjourContrepetrie3/res/values-v14/styles.xml"
                 qualifiers="v14" >
 
                 <style
@@ -588,11 +588,11 @@ false
                 </style>
             </file>
         </source>
-        <source path="/Users/Pol/Development/Android/BonjourContrepetrie/build/res/rs/debug" />
-        <source path="/Users/Pol/Development/Android/BonjourContrepetrie/build/res/generated/debug" />
+        <source path="/Development/Android/BonjourContrepetrie3/build/res/rs/debug" />
+        <source path="/Development/Android/BonjourContrepetrie3/build/res/generated/debug" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/Pol/Development/Android/BonjourContrepetrie/build-types/debug/res" />
+        <source path="/Development/Android/BonjourContrepetrie3/build-types/debug/res" />
     </dataSet>
 
 </merger>

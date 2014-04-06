@@ -11,8 +11,11 @@ So, here's our gitignore file:
 *.class
 
 # generated files
+build/
 bin/
 gen/
+
+
 
 # Local configuration file (sdk path, etc)
 local.properties
@@ -37,3 +40,4 @@ local.properties
 *.ipr
 *~
 *.swp
+

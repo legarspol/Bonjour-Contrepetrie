@@ -1,11 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
 <merger>
 
+    <dataSet config="0.2.0" >
+        <source path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.castorflex.smoothprogressbar/library/0.2.0/assets" />
+    </dataSet>
+    <dataSet config="0.9.3" >
+        <source path="/Development/Android/BonjourContrepetrie3/build/exploded-aar/com.github.chrisbanes.actionbarpulltorefresh/library/0.9.3/assets" />
+    </dataSet>
     <dataSet config="main" >
-        <source path="/Users/Pol/Development/Android/BonjourContrepetrie/assets" />
+        <source path="/Development/Android/BonjourContrepetrie3/assets" />
     </dataSet>
     <dataSet config="debug" >
-        <source path="/Users/Pol/Development/Android/BonjourContrepetrie/build-types/debug/assets" />
+        <source path="/Development/Android/BonjourContrepetrie3/build-types/debug/assets" />
     </dataSet>
 
 </merger>

@@ -2,6 +2,7 @@
 <resources>
 
     <string name="app_name">Bonjour Contrepetrie</string>
-    <string name="action_about">Settings</string>
+    <string name="action_about">A propos</string>
+    <string name="apropos">A propos</string>
 
 </resources>

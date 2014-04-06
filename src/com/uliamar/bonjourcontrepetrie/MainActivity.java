@@ -7,6 +7,7 @@ import org.json.JSONArray;
 import org.json.JSONException;
 import org.json.JSONObject;
 
+import com.google.analytics.tracking.android.EasyTracker;
 import com.loopj.android.http.JsonHttpResponseHandler;
 import com.squareup.picasso.Picasso;
 
@@ -43,6 +44,8 @@ public class MainActivity extends Activity {
 
 
     public final static String BASE_URL = "http://uliamar.com/h/contre/";
+
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -238,6 +241,20 @@ public class MainActivity extends Activity {
         // Inflate the menu; this adds items to the action bar if it is present.
         getMenuInflater().inflate(R.menu.main, menu);
         return true;
+    }
+
+    @Override
+    protected void onStop() {
+        super.onStop();
+        EasyTracker.getInstance(this).activityStop(this);  // Add this method.
+
+    }
+
+    @Override
+    protected void onStart() {
+        super.onStart();
+        EasyTracker.getInstance(this).activityStart(this);  // Add this method.
+
     }
 
 }

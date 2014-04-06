@@ -1,0 +1,75 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:gesture-image="http://schemas.polites.com/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+
+    <TextView
+        android:id="@+id/emptyList"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:text="There is no item"
+        android:textSize="25sp" />
+
+    <uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ptr_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+
+        <GridView
+            android:id="@+id/gridview"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:columnWidth="150dp"
+            android:gravity="center"
+            android:horizontalSpacing="10dp"
+            android:numColumns="auto_fit"
+            android:stretchMode="columnWidth"
+            android:verticalSpacing="10dp"
+            />
+
+
+    </uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout>
+
+
+
+
+    <!-- <ImageView -->
+    <!-- android:id="@+id/agrandi" -->
+    <!-- android:layout_width="fill_parent" -->
+    <!-- android:layout_height="fill_parent" -->
+    <!-- android:src="@drawable/l" /> -->
+
+    <FrameLayout
+        android:id="@+id/pictureContainer"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:background="#CC000000"
+        android:onClick="hidePicure"
+        android:visibility="gone" >
+
+        <ImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="hidePicure"
+            android:src="@drawable/l" />
+
+        <!--
+             <com.polites.android.GestureImageView
+            android:id="@+id/image"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:onClick="hidePicure"
+            android:src="@drawable/l"
+            gesture-image:max-scale="10.0"
+            gesture-image:min-scale="0.1"
+            gesture-image:strict="false" />
+        -->
+    </FrameLayout>
+
+</RelativeLayout>

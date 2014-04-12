@@ -1,16 +1,16 @@
 Bonjour Contrepetrie
 =====================
 
-**Attention**: Bonjour Contrepetrie est encore en developpement
+**Attention**: Bonjour Contrepetrie est encore en développement
 
-Une application qui recupere les contrepetrie de http://www.lescontrepetographes.com/
+Une application qui récupère  les contrepetrie de http://www.lescontrepetographes.com/
 
 To do
 ---
 
-*Notifications Push
-*About page
-*share bouton
+* Notifications Push
+* About page
+* share bouton
 
 Bugs connus
 ---
@@ -27,8 +27,8 @@ Vous aurez besoin de
 
 Librairies utililisées
 ---
-*Picasso
-*androi-async-http
-*sugar
-*libGoogleAnalyticsServices
-*android-support-v4
+* Picasso
+* androi-async-http
+* sugar
+* libGoogleAnalyticsServices
+* android-support-v4

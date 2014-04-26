@@ -44,7 +44,6 @@ public class MainActivity extends Activity {
     String imageDisplayedFullSize = "";
     PhotoViewAttacher mAttacher;
 
-
     public final static String BASE_URL = "http://uliamar.com/h/contre/";
 
 
@@ -56,7 +55,7 @@ public class MainActivity extends Activity {
 
         Log.d("Lifetime", "On create called");
 
-
+Contre.deleteAll(Contre.class);
         gridview = (GridView) findViewById(R.id.gridview);
         gridview.setEmptyView(findViewById(R.id.emptyList));
         adaptateur = new ImageAdapter(this, new ArrayList<Contre>());
@@ -75,7 +74,6 @@ public class MainActivity extends Activity {
         });
 
         setDataFromDB();
-
 
         // Now find the PullToRefreshLayout to setup
         mPullToRefreshLayout = (PullToRefreshLayout) findViewById(R.id.ptr_layout);
@@ -272,11 +270,11 @@ public class MainActivity extends Activity {
         }
     }
 
+
+
     private void loadAPropos() {
         Intent intent = new Intent(this, APropos.class);
         startActivity(intent);
-
-
     }
 
 }

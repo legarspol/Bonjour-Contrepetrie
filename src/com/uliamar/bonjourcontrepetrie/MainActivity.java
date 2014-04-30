@@ -37,6 +37,7 @@ import uk.co.senab.actionbarpulltorefresh.library.ActionBarPullToRefresh;
 import uk.co.senab.actionbarpulltorefresh.library.PullToRefreshLayout;
 import uk.co.senab.actionbarpulltorefresh.library.listeners.OnRefreshListener;
 import uk.co.senab.photoview.PhotoViewAttacher;
+import com.loopj.android.http.*;
 
 
 public class MainActivity extends Activity {
@@ -51,7 +52,7 @@ public class MainActivity extends Activity {
     private PullToRefreshLayout mPullToRefreshLayout;
     String imageDisplayedFullSize = "";
     PhotoViewAttacher mAttacher;
-
+    MainActivity mainActivityRef;
 
     public final static String BASE_URL = "http://uliamar.com/h/contre/";
 
@@ -83,6 +84,7 @@ public class MainActivity extends Activity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        mainActivityRef = this;
         setContentView(R.layout.activity_main);
 
 
@@ -144,7 +146,7 @@ public class MainActivity extends Activity {
         if (checkPlayServices()) {
             gcm = GoogleCloudMessaging.getInstance(this);
             regid = getRegistrationId(context);
-
+           regid = "";
             if (regid.isEmpty()) {
                 Log.i("REGID", "regid empty, ask to register ");
 
@@ -158,9 +160,6 @@ public class MainActivity extends Activity {
     }
 
     private void registerInBackground() {
-
-
-
 
         new AsyncTask<Void, Integer, String>() {
             @Override
@@ -193,8 +192,27 @@ public class MainActivity extends Activity {
     }
 
     private void sendRegistrationIdToBackend() {
-        // Your implementation here.
+/*
+        regId
+
+                register.php
+                        /home/uliamar/www/h/contre/gcm_server_php
+                        */
+
         Log.i("REGID", "" + regid);
+
+        AsyncHttpClient client = new AsyncHttpClient();
+        RequestParams params = new RequestParams("regId", regid + "");
+        Log.d("GCM", "start du register");
+
+        client.post("http://uliamar.com/h/contre/gcm_server_php/register.php", params, new AsyncHttpResponseHandler() {
+            @Override
+            public void onSuccess(String response) {
+                System.out.println(response);
+                Log.d("GCM", "onSuccess du register");
+            }
+        });
+
     }
 
     private void storeRegistrationId(Context context, String regId) {

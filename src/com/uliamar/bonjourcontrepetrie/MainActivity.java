@@ -55,7 +55,7 @@ public class MainActivity extends Activity {
 
         Log.d("Lifetime", "On create called");
 
-Contre.deleteAll(Contre.class);
+        //Contre.deleteAll(Contre.class);
         gridview = (GridView) findViewById(R.id.gridview);
         gridview.setEmptyView(findViewById(R.id.emptyList));
         adaptateur = new ImageAdapter(this, new ArrayList<Contre>());

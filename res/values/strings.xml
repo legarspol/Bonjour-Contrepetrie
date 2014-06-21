@@ -2,6 +2,18 @@
 <resources>
 
     <string name="app_name">Bonjour Contrepetrie</string>
-    <string name="action_about">Settings</string>
+    <string name="action_about">A propos</string>
+    <string name="apropos">A propos</string>
+    <string name="domDesc">Titulaire d’une maîtrise LEA Anglais-Russe, il bénéficie d’un lourd héritage familial contrapétistique, émaillé de calembours et de jeux de mots divers. Sa rencontre avec Stéphane a été décisive pour l’inciter à franchir le pas et à se lancer dans la composition. Il se sent comme un DJ des mots, échantillonnant les sonorités, les mixant les unes aux autres en misant parfois sur l’aléatoire…
+
+Une alchimie forcément destinée à passer par les éprouvettes de Stéphane, d’où l’idée de cette activité commune.</string>
+    <string name="dom_name">Dom Agnesina</string>
+    <string name="stef_name">Stéphane Massa-Bidal</string>
+    <string name="stef_desc">Sémioticien de formation et designer graphique par déformation, artiste, et illustrateur connu sous le nom de Hulk4598 ou de Retrofuturs, il travaille depuis 2008 sur les rapport texte/image :  images rétro, collages ou graphisme épuré. Il créé autour de son travail une iconographie digitale. Obsédé textuel à tendance visuelle, son concept artistique Rétrofuturs , parle avant tout du présent ;  c’est comme l’imparfait du subjonctif en visuel. Diplômé en chimie, le principe de son travail artistique est un catalyseur :  placer et entrechoquer les codes dans une éprouvette pour voir comment cela réagit. Ses travaux ont été présentés dans de nombreux magazines et sites internationaux tels que Fubiz, Abduzeedo, Boingboing, Libération, Taschen, Ignant, Design you Trust, IdN, +81…</string>
+    <string name="pol_name">Pol Le Garsmeur</string>
+    <string name="pol_desc">Humble fan des contrepetrographes et Réalisateur de l\'application Android de Bonjour Contrepetrie</string>
+    <string name="les_contrepetries">Les contrepetries</string>
+    <string name="les_contrepeteries_desc">Définition : La contrepèterie est un jeu de mots consistant à permuter certaines lettres ou syllabes, voire phonèmes, d’une phrase faussement anodine afin d’en obtenir une nouvelle, grivoise le plus souvent.</string>
+    <string name="les_contrepetrographes">Les Contrepetrographes</string>
 
 </resources>

@@ -41,7 +41,10 @@
 
         <activity
             android:name="com.uliamar.bonjourcontrepetrie.MainActivity"
-            android:label="@string/app_name" >
+            android:label="@string/app_name"
+            android:launchMode="singleTop">
+
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -50,7 +53,6 @@
 
 
         </activity>
-
 
         <receiver
             android:name="com.uliamar.bonjourcontrepetrie.GcmBroadcastReceiver"
@@ -63,6 +65,9 @@
         </receiver>
         <service android:name="com.uliamar.bonjourcontrepetrie.GcmIntentService" />
 
+        <activity android:name="com.uliamar.bonjourcontrepetrie.APropos"
+            android:label="@string/apropos"
+            android:parentActivityName=".MainActivity"/>
     </application>
 
 </manifest>
